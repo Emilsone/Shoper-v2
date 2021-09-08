@@ -33,7 +33,7 @@ export default {
 </script>	
 <style  scoped>
 .footer___bg {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 .blog-text {

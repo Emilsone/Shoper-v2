@@ -122,14 +122,14 @@
       <!-- component -->
       <!-- responsive table-->
       <div class="mt-2">
-        <table class="max-w-5xl mx-auto table-auto">
+        <table class="max-w-6xl mx-auto table-auto my-12">
           <thead class="justify-between">
-            <tr class="bg-green-600">
-              <th class="px-16 py-2">
-                <span class="text-gray-100 font-semibold">Avatar</span>
-              </th>
+            <tr class="">
               <th class="px-16 py-2">
                 <span class="text-gray-100 font-semibold">Name</span>
+              </th>
+              <th class="px-16 py-2">
+                <span class="text-gray-100 font-semibold">Category</span>
               </th>
 
               <th class="px-16 py-2">
@@ -138,10 +138,6 @@
 
               <th class="px-16 py-2">
                 <span class="text-gray-100 font-semibold">Time</span>
-              </th>
-
-              <th class="px-16 py-2">
-                <span class="text-gray-100 font-semibold">Setting</span>
               </th>
             </tr>
           </thead>
