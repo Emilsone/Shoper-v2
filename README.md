@@ -1,4 +1,4 @@
-# Managie
+# Shoper Version 2
 
 ## Project setup
 ```
