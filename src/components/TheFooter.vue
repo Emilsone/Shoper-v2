@@ -1,22 +1,9 @@
 <template>
   <footer class="footer___bg h-full">
     <div class="container mx-auto px-8 ">
-      <div class="w-full flex flex-col md:flex-row py-6">
+      <div class="w-full flex flex-col md:flex-row py-6 text-center">
         <LogoFooter />
-
-        <div class="flex-1 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold">Features</p>
-          
-        </div>
-        <div class="flex-1 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold">Further Information</p>
-         
-        </div>
-
-        <div class="flex-2 px-4 py-6">
-          <p class="uppercase md:mb-6 font-bold py-2">Company</p>
-         
-        </div>
+      
       </div>
     </div>
   </footer>

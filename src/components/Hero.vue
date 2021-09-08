@@ -25,12 +25,12 @@
             hero-text
           "
         >
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Start organizing Your projects With Managie
+          <h1 class="my-4 text-5xl font-bold w-full ">
+            Happiness is not in money but in shopping 
           </h1>
           <p class="leading-normal text-lg mb-4 py-2">
-            Managie helps you to organize and priotize your projects and keep
-            them on track in a fun and flexible way
+          Shoper helps you to organize and priotize your list and keep
+            them on track ✔✔✔
           </p>
 
           <!-- <input
@@ -126,10 +126,10 @@
           <thead class="justify-between">
             <tr class="">
               <th class="px-16 py-2">
-                <span class="text-gray-100 font-semibold">Name</span>
+                <span class="text-gray-100 font-semibold">Category</span>
               </th>
               <th class="px-16 py-2">
-                <span class="text-gray-100 font-semibold">Category</span>
+                <span class="text-gray-100 font-semibold">Item</span>
               </th>
 
               <th class="px-16 py-2">
@@ -137,12 +137,15 @@
               </th>
 
               <th class="px-16 py-2">
-                <span class="text-gray-100 font-semibold">Time</span>
+                <span class="text-gray-100 font-semibold">Quantity</span>
+              </th>
+              <th class="px-16 py-2">
+                <span class="text-gray-100 font-semibold">Action</span>
               </th>
             </tr>
           </thead>
-          <tbody class="bg-gray-200">
-            <tr class="bg-white border-b-2 border-gray-200">
+          <tbody class="">
+            <tr class=" border-b-2 border-gray-400">
               <td class="px-16 py-2 flex flex-row items-center">
                 <img
                   class="h-8 w-8 rounded-full object-cover"
@@ -193,7 +196,7 @@
                 </span>
               </td>
             </tr>
-            <tr class="bg-white border-b-2 border-gray-200">
+            <tr class=" border-b-2 border-gray-400">
               <td class="px-16 py-2 flex flex-row items-center">
                 <img
                   class="h-8 w-8 rounded-full object-cover"
@@ -244,7 +247,7 @@
                 </span>
               </td>
             </tr>
-            <tr class="bg-white border-b-2 border-gray-200">
+            <tr class=" border-b-2 border-gray-400">
               <td class="px-16 py-2 flex flex-row items-center">
                 <img
                   class="h-8 w-8 rounded-full object-cover"
