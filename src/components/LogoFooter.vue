@@ -6,8 +6,7 @@
       >Shopper<span class="text-4xl word-spacing dot-text">.</span>
     </a>
     <p class="leading-7 text-sm text-gray-600 py-2">
-      Plan and execute your project like a pro
-    </p>
+     Shopping made easy with shopper 🎉🎉🎉🎉 </p>
     
   </div>
 </template>
