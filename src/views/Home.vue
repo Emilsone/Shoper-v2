@@ -1,23 +1,21 @@
 <template>
   <main>
     <TheHeader />
-    <hero />
+    <ShopList />
     
     <TheFooter />
   </main>
 </template>
 <script>
 import TheHeader from "@/components/TheHeader.vue";
-import Hero from "@/components/Hero.vue";
-
+import ShopList from "@/components/ShopList.vue";
 import TheFooter from "@/components/TheFooter.vue";
 export default {
-  components: {
-    TheHeader,
-    Hero,
-   
-    TheFooter,
-  },
+components: {
+  TheHeader,
+  ShopList,
+  TheFooter,
+},
 };
 </script>
 <style scoped>

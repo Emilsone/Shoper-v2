@@ -25,7 +25,7 @@ export default {
 #app{
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased;
-background-color: #060507;
+background-color: #1b1a1b;
 color:#EDEDED
 }
 </style>
