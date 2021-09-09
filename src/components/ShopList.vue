@@ -72,6 +72,8 @@
           "
           required
           placeholder="Create List"
+          v-model="currentList"
+          v-on:keyup.enter="addList"
         />
       </div>
 

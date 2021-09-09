@@ -23,16 +23,16 @@
           </th>
         </tr>
       </thead>
-      <tbody class="">
-        <tr
-          class="border-b-2 border-gray-400"
-          v-for="(list, index) in lists"
-          :key="index"
-          :class="{ removed: list.checked }"
-        >
+      <tbody
+        v-for="(list, index) in lists"
+        :key="index"
+        :class="{ removed: list.checked }"
+      >
+        <tr class="border-b-2 border-gray-400">
+
           <input type="checkbox" v-model="list.checked" class="input-box" />
 
-          <td>
+          <td class="label">
             <span class="text-center ml-2 font-semibold">{{ list.text }}</span>
           </td>
 
@@ -62,9 +62,10 @@
               </svg>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 text-red-700"
+                class="h-5 w-5 text-red-700 cursor-pointer"
                 viewBox="0 0 20 20"
                 fill="currentColor"
+                v-on:click="removeList(index)"
               >
                 <path
                   fill-rule="evenodd"
@@ -92,7 +93,22 @@ export default {
       currentList: "",
     };
   },
+  methods: {
+    addList() {
+      this.lists.push({ text: this.currentList, checked: false });
+      this.currentList = "";
+    },
+    removeList(index) {
+      this.lists.splice(index, 1);
+    },
+  },
 };
 </script>
 <style>
+.removed label {
+  text-decoration: line-through;
+}
+.removed {
+  color: red;
+}
 </style>
