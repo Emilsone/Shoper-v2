@@ -7,6 +7,7 @@
     </a>
     <p class="leading-7 text-sm text-gray-600 py-2">
      Shopping made easy with shopper 🎉🎉🎉🎉 </p>
+     <p class="footer">Made With ❤ ❤ ❤ By Emilson</p>
     
   </div>
 </template>

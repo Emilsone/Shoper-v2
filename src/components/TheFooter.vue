@@ -4,6 +4,7 @@
       <div class="w-full flex flex-col md:flex-row py-6 text-center">
         <LogoFooter />
       
+      
       </div>
     </div>
   </footer>
